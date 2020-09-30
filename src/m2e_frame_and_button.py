@@ -14,7 +14,17 @@ from tkinter import ttk
 
 def main():
     root = tkinter.Tk()
-
+#attributes
+'''
+bd    -->	It represents the border width.
+bg    -->	The background color of the widget.
+cursor-->	The mouse pointer is changed to the cursor type set to different values like an arrow, dot, etc.
+height-->	The height of the frame.
+highlightbackground  -->	The color of the background color when it is under focus.
+highlightcolor       -->	The text color when the widget is under focus.
+highlightthickness   -->	It specifies the thickness around the border when the widget is under the focus.
+relief -->	It specifies the type of the border. The default value if FLAT.
+width  -->	It represents the width of the widget.'''
     frame1 = ttk.Frame(root, padding=10)
     frame1.grid()
 
